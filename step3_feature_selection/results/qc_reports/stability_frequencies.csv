@@ -1,0 +1,19 @@
+feature,selection_frequency,mean_abs_coef,stability_rank,stage3_keep
+Ovarian_Volume_Proxy,1,1.03638,1,True
+Follicle No. (R),1,0.966459,2,True
+hair growth(Y/N),1,0.923885,3,True
+Skin darkening (Y/N),1,0.887556,4,True
+Pimples(Y/N),1,0.691579,5,True
+Cycle(R/I),1,0.632454,6,True
+Metabolic_Risk_Score,1,0.624571,7,True
+Follicle_Total,1,0.582252,8,True
+Age (yrs),1,0.444308,9,True
+Follicle_Asymmetry,1,0.423735,10,True
+Hair loss(Y/N),1,0.258411,11,True
+LH(mIU/mL),0.98,0.165738,12,True
+I   beta-HCG(mIU/mL),0.98,0.144506,13,True
+AMH(ng/mL),0.88,0.199143,14,True
+OligoAnovulation_Flag,0.88,0.118037,15,True
+Weight (Kg),0.7,0.0808401,16,True
+BMI,0.64,0.084113,17,False
+AMH_x_Follicle,0.6,0.125882,18,False

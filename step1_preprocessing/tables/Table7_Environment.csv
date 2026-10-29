@@ -1,0 +1,5 @@
+Resources,Details
+CPU,"Intel64 Family 6 Model 126 Stepping 5, GenuineIntel (8 logical cores)"
+GPU,None (CPU-only PyTorch build)
+RAM,16.9 GB
+Experimental tools,Python 3.13.5; scikit-learn 1.9.1; statsmodels 0.15.0

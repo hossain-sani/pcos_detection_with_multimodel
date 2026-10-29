@@ -1,0 +1,3 @@
+Section,Training,Testing,Total
+Before oversampling,291/141,73/36,364/177
+After oversampling,291/291,73/36,364/327

@@ -1,0 +1,39 @@
+{
+  "timestamp_utc": "2026-10-29T03:10:59.217192+00:00",
+  "protocol": {
+    "fit_data": "Step-2 SMOTE-NC balanced holdout train (zero test leakage)",
+    "stage1": "Chi2 + ANOVA rank-average, top 30",
+    "stage2": "Boruta(max_iter=100) + CatBoost-RFE rank-merge, top 18",
+    "stage3": "ElasticNet stability, 50x 80% subsample, l1_ratio=0.5, threshold 0.7, top 16",
+    "wrapper_rfe": "CB/XGB/LR/RF on stage-1 features, top [20, 16, 12]"
+  },
+  "counts": {
+    "input": 63,
+    "stage1": 30,
+    "stage2": 18,
+    "stage3": 16
+  },
+  "final_16": [
+    "Ovarian_Volume_Proxy",
+    "Follicle (R)",
+    "hair growth(Y/N)",
+    "Skin darkening (Y/N)",
+    "Pimples(Y/N)",
+    "Cycle (R/I)",
+    "Metabolic_Risk_Score",
+    "Follicle_Total",
+    "Age (years)",
+    "Follicle_Asymmetry",
+    "Hair loss(Y/N)",
+    "LH (mIU/mL)",
+    "I beta-HCG (mIU/mL)",
+    "AMH (ng/mL)",
+    "OligoAnovulation_Flag",
+    "Weight (kg)"
+  ],
+  "updated_data_files": [
+    "stage1_chi2_anova_30.csv",
+    "stage2_boruta_cb_rfe_18.csv",
+    "stage3_final_16.csv"
+  ]
+}

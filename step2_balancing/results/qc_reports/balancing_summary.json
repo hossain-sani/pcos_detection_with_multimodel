@@ -1,0 +1,85 @@
+{
+  "timestamp_utc": "2026-10-29T02:58:31.169417+00:00",
+  "protocol": {
+    "holdout": "stratified 80%/20%, seed=42",
+    "nested_cv": "5x5 stratified, seed=42",
+    "sampler": "SMOTE-NC (categorical_features preserved), inside-fold only",
+    "validation_test": "untouched, never resampled"
+  },
+  "holdout": {
+    "train": 432,
+    "test": 109,
+    "train_before": {
+      "neg": 291,
+      "pos": 141,
+      "test_neg": 73,
+      "test_pos": 36
+    },
+    "train_after": {
+      "neg": 291,
+      "pos": 291,
+      "test_neg": 73,
+      "test_pos": 36
+    }
+  },
+  "outer_folds": [
+    {
+      "fold": 0,
+      "train": 345,
+      "valid": 87,
+      "inner_splits": 5
+    },
+    {
+      "fold": 1,
+      "train": 345,
+      "valid": 87,
+      "inner_splits": 5
+    },
+    {
+      "fold": 2,
+      "train": 346,
+      "valid": 86,
+      "inner_splits": 5
+    },
+    {
+      "fold": 3,
+      "train": 346,
+      "valid": 86,
+      "inner_splits": 5
+    },
+    {
+      "fold": 4,
+      "train": 346,
+      "valid": 86,
+      "inner_splits": 5
+    }
+  ],
+  "balanced_files": [
+    "holdout_train_balanced.csv",
+    "holdout_train_balanced_target.csv",
+    "outer_fold_0_train_balanced.csv",
+    "outer_fold_0_train_balanced_target.csv",
+    "outer_fold_1_train_balanced.csv",
+    "outer_fold_1_train_balanced_target.csv",
+    "outer_fold_2_train_balanced.csv",
+    "outer_fold_2_train_balanced_target.csv",
+    "outer_fold_3_train_balanced.csv",
+    "outer_fold_3_train_balanced_target.csv",
+    "outer_fold_4_train_balanced.csv",
+    "outer_fold_4_train_balanced_target.csv"
+  ],
+  "split_data_files": [
+    "holdout_test.csv",
+    "holdout_train.csv",
+    "outer_fold_0_train.csv",
+    "outer_fold_0_valid.csv",
+    "outer_fold_1_train.csv",
+    "outer_fold_1_valid.csv",
+    "outer_fold_2_train.csv",
+    "outer_fold_2_valid.csv",
+    "outer_fold_3_train.csv",
+    "outer_fold_3_valid.csv",
+    "outer_fold_4_train.csv",
+    "outer_fold_4_valid.csv"
+  ]
+}

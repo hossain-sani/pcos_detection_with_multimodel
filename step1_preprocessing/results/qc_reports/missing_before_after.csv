@@ -1,0 +1,46 @@
+column,missing_before,dtype_before,n_unique,missing_after,imputation_method
+Sl. No,0,int64,541,0,none
+Patient File No.,0,int64,541,0,none
+PCOS (Y/N),0,int64,2,0,none
+Age (yrs),0,int64,29,0,none
+Weight (Kg),0,float64,117,0,none
+Height(Cm),0,float64,50,0,none
+BMI,0,float64,157,0,none
+Blood Group,0,int64,8,0,none
+Pulse rate(bpm),0,int64,11,0,none
+RR (breaths/min),0,int64,8,0,none
+Hb(g/dl),0,float64,46,0,none
+Cycle(R/I),0,int64,3,0,none
+Cycle length(days),0,int64,12,0,none
+Marraige Status (Yrs),1,float64,34,0,median (train-fitted)
+Pregnant(Y/N),0,int64,2,0,none
+No. of abortions,0,int64,6,0,none
+I   beta-HCG(mIU/mL),0,float64,307,0,none
+II    beta-HCG(mIU/mL),0,str,203,0,none
+FSH(mIU/mL),0,float64,371,0,none
+LH(mIU/mL),0,float64,342,0,none
+FSH/LH,0,float64,339,0,none
+Hip(inch),0,int64,19,0,none
+Waist(inch),0,int64,23,0,none
+Waist:Hip Ratio,0,float64,22,0,none
+TSH (mIU/L),0,float64,308,0,none
+AMH(ng/mL),0,str,301,0,none
+PRL(ng/mL),0,float64,481,0,none
+Vit D3 (ng/mL),0,float64,331,0,none
+PRG(ng/mL),0,float64,89,0,none
+RBS(mg/dl),0,float64,55,0,none
+Weight gain(Y/N),0,int64,2,0,none
+hair growth(Y/N),0,int64,2,0,none
+Skin darkening (Y/N),0,int64,2,0,none
+Hair loss(Y/N),0,int64,2,0,none
+Pimples(Y/N),0,int64,2,0,none
+Fast food (Y/N),1,float64,2,0,median (train-fitted)
+Reg.Exercise(Y/N),0,int64,2,0,none
+BP _Systolic (mmHg),0,int64,6,0,none
+BP _Diastolic (mmHg),0,int64,5,0,none
+Follicle No. (L),0,int64,21,0,none
+Follicle No. (R),0,int64,20,0,none
+Avg. F size (L) (mm),0,float64,31,0,none
+Avg. F size (R) (mm),0,float64,32,0,none
+Endometrium (mm),0,float64,91,0,none
+Unnamed: 44,539,str,2,0,median (train-fitted)

@@ -1,0 +1,121 @@
+feature,model,rank,top20,top16,top12
+Ovarian_Volume_Proxy,CB,10,True,True,True
+Follicle_Total,CB,3,True,True,True
+Follicle_Avg,CB,2,True,True,True
+Follicle No. (R),CB,6,True,True,True
+AMH_x_Follicle,CB,9,True,True,True
+Follicle No. (L),CB,14,True,True,False
+Androgen_Score,CB,1,True,True,True
+Clinical_Hyperandrogenism_Flag,CB,11,True,True,True
+PCOM_Flag,CB,21,False,False,False
+Skin darkening (Y/N),CB,25,False,False,False
+Weight gain(Y/N),CB,4,True,True,True
+hair growth(Y/N),CB,28,False,False,False
+AMH(ng/mL),CB,15,True,True,False
+Follicle_Asymmetry,CB,12,True,True,True
+Fast food (Y/N),CB,18,True,False,False
+OligoAnovulation_Flag,CB,26,False,False,False
+Metabolic_Risk_Score,CB,19,True,False,False
+Pimples(Y/N),CB,30,False,False,False
+Cycle(R/I),CB,5,True,True,True
+Weight (Kg),CB,13,True,True,False
+AMH_High_Flag,CB,29,False,False,False
+BMI,CB,24,False,False,False
+Marraige Status (Yrs),CB,7,True,True,True
+Age (yrs),CB,20,True,False,False
+Hair loss(Y/N),CB,27,False,False,False
+Waist(inch),CB,16,True,True,False
+Hip(inch),CB,23,False,False,False
+I   beta-HCG(mIU/mL),CB,17,True,False,False
+Cycle length(days),CB,8,True,True,True
+LH(mIU/mL),CB,22,False,False,False
+Ovarian_Volume_Proxy,XGB,14,True,True,False
+Follicle_Total,XGB,2,True,True,True
+Follicle_Avg,XGB,30,False,False,False
+Follicle No. (R),XGB,5,True,True,True
+AMH_x_Follicle,XGB,25,False,False,False
+Follicle No. (L),XGB,13,True,True,False
+Androgen_Score,XGB,1,True,True,True
+Clinical_Hyperandrogenism_Flag,XGB,4,True,True,True
+PCOM_Flag,XGB,3,True,True,True
+Skin darkening (Y/N),XGB,27,False,False,False
+Weight gain(Y/N),XGB,6,True,True,True
+hair growth(Y/N),XGB,8,True,True,True
+AMH(ng/mL),XGB,23,False,False,False
+Follicle_Asymmetry,XGB,11,True,True,True
+Fast food (Y/N),XGB,10,True,True,True
+OligoAnovulation_Flag,XGB,9,True,True,True
+Metabolic_Risk_Score,XGB,21,False,False,False
+Pimples(Y/N),XGB,18,True,False,False
+Cycle(R/I),XGB,7,True,True,True
+Weight (Kg),XGB,19,True,False,False
+AMH_High_Flag,XGB,29,False,False,False
+BMI,XGB,28,False,False,False
+Marraige Status (Yrs),XGB,15,True,True,False
+Age (yrs),XGB,26,False,False,False
+Hair loss(Y/N),XGB,20,True,False,False
+Waist(inch),XGB,17,True,False,False
+Hip(inch),XGB,22,False,False,False
+I   beta-HCG(mIU/mL),XGB,16,True,True,False
+Cycle length(days),XGB,12,True,True,True
+LH(mIU/mL),XGB,24,False,False,False
+Ovarian_Volume_Proxy,LR,26,False,False,False
+Follicle_Total,LR,14,True,True,False
+Follicle_Avg,LR,18,True,False,False
+Follicle No. (R),LR,10,True,True,True
+AMH_x_Follicle,LR,28,False,False,False
+Follicle No. (L),LR,25,False,False,False
+Androgen_Score,LR,12,True,True,True
+Clinical_Hyperandrogenism_Flag,LR,2,True,True,True
+PCOM_Flag,LR,1,True,True,True
+Skin darkening (Y/N),LR,7,True,True,True
+Weight gain(Y/N),LR,3,True,True,True
+hair growth(Y/N),LR,8,True,True,True
+AMH(ng/mL),LR,27,False,False,False
+Follicle_Asymmetry,LR,13,True,True,False
+Fast food (Y/N),LR,6,True,True,True
+OligoAnovulation_Flag,LR,15,True,True,False
+Metabolic_Risk_Score,LR,17,True,False,False
+Pimples(Y/N),LR,4,True,True,True
+Cycle(R/I),LR,9,True,True,True
+Weight (Kg),LR,23,False,False,False
+AMH_High_Flag,LR,5,True,True,True
+BMI,LR,22,False,False,False
+Marraige Status (Yrs),LR,16,True,True,False
+Age (yrs),LR,29,False,False,False
+Hair loss(Y/N),LR,11,True,True,True
+Waist(inch),LR,24,False,False,False
+Hip(inch),LR,20,True,False,False
+I   beta-HCG(mIU/mL),LR,30,False,False,False
+Cycle length(days),LR,19,True,False,False
+LH(mIU/mL),LR,21,False,False,False
+Ovarian_Volume_Proxy,RF,5,True,True,True
+Follicle_Total,RF,1,True,True,True
+Follicle_Avg,RF,2,True,True,True
+Follicle No. (R),RF,4,True,True,True
+AMH_x_Follicle,RF,7,True,True,True
+Follicle No. (L),RF,9,True,True,True
+Androgen_Score,RF,3,True,True,True
+Clinical_Hyperandrogenism_Flag,RF,6,True,True,True
+PCOM_Flag,RF,16,True,True,False
+Skin darkening (Y/N),RF,18,True,False,False
+Weight gain(Y/N),RF,11,True,True,True
+hair growth(Y/N),RF,22,False,False,False
+AMH(ng/mL),RF,10,True,True,True
+Follicle_Asymmetry,RF,19,True,False,False
+Fast food (Y/N),RF,20,True,False,False
+OligoAnovulation_Flag,RF,28,False,False,False
+Metabolic_Risk_Score,RF,25,False,False,False
+Pimples(Y/N),RF,27,False,False,False
+Cycle(R/I),RF,12,True,True,True
+Weight (Kg),RF,24,False,False,False
+AMH_High_Flag,RF,29,False,False,False
+BMI,RF,15,True,True,False
+Marraige Status (Yrs),RF,23,False,False,False
+Age (yrs),RF,14,True,True,False
+Hair loss(Y/N),RF,30,False,False,False
+Waist(inch),RF,26,False,False,False
+Hip(inch),RF,21,False,False,False
+I   beta-HCG(mIU/mL),RF,13,True,True,False
+Cycle length(days),RF,8,True,True,True
+LH(mIU/mL),RF,17,True,False,False

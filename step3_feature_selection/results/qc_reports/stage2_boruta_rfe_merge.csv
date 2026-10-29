@@ -1,0 +1,31 @@
+feature,boruta_support,boruta_weak,boruta_rank,cb_rfe_rank,cb_rfe_selected,boruta_rank_norm,rfe_rank_norm,stage2_score,stage2_rank,stage2_keep
+BMI,True,False,1,21,False,0.116667,0.333333,0.225,1,True
+AMH_x_Follicle,True,False,1,17,False,0.116667,0.466667,0.291667,2,True
+Follicle_Total,True,False,1,16,False,0.116667,0.5,0.308333,3,True
+OligoAnovulation_Flag,False,False,19,29,False,0.8,0.0666667,0.433333,4,True
+Ovarian_Volume_Proxy,True,False,1,8,False,0.116667,0.766667,0.441667,5,True
+Age (yrs),False,False,9,18,False,0.483333,0.433333,0.458333,6,True
+Follicle_Asymmetry,False,False,6,14,False,0.366667,0.566667,0.466667,7,True
+Metabolic_Risk_Score,False,False,15,23,False,0.666667,0.266667,0.466667,8,True
+Hair loss(Y/N),False,False,20,28,False,0.833333,0.1,0.466667,9,True
+Pimples(Y/N),False,False,22,30,False,0.9,0.0333333,0.466667,10,True
+Weight (Kg),False,False,7,15,False,0.416667,0.533333,0.475,11,True
+hair growth(Y/N),False,False,17,25,False,0.75,0.2,0.475,12,True
+I   beta-HCG(mIU/mL),False,False,11,19,False,0.55,0.4,0.475,13,True
+LH(mIU/mL),False,False,3,10,False,0.266667,0.7,0.483333,14,True
+Follicle No. (R),True,False,1,5,False,0.116667,0.866667,0.491667,15,True
+Skin darkening (Y/N),False,False,21,27,False,0.866667,0.133333,0.5,16,True
+AMH(ng/mL),False,False,4,9,False,0.3,0.733333,0.516667,17,True
+Cycle(R/I),False,False,7,12,False,0.416667,0.633333,0.525,18,True
+Fast food (Y/N),False,False,17,22,False,0.75,0.3,0.525,19,False
+Marraige Status (Yrs),False,True,2,6,False,0.233333,0.833333,0.533333,20,False
+Hip(inch),False,False,16,20,False,0.7,0.366667,0.533333,21,False
+Androgen_Score,True,False,1,2,False,0.116667,0.966667,0.541667,22,False
+Weight gain(Y/N),False,False,5,7,False,0.333333,0.8,0.566667,23,False
+AMH_High_Flag,False,False,24,26,False,0.966667,0.166667,0.566667,24,False
+Follicle No. (L),False,False,9,11,False,0.483333,0.666667,0.575,25,False
+PCOM_Flag,False,False,23,24,False,0.933333,0.233333,0.583333,26,False
+Clinical_Hyperandrogenism_Flag,False,False,14,13,False,0.633333,0.6,0.616667,27,False
+Waist(inch),False,False,11,3,False,0.55,0.933333,0.741667,28,False
+Cycle length(days),False,False,13,4,False,0.6,0.9,0.75,29,False
+Follicle_Avg,False,False,25,1,True,1,1,1,30,False

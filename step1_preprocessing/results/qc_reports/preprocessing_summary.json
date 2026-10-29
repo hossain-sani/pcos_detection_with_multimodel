@@ -1,0 +1,64 @@
+{
+  "timestamp_utc": "2026-10-29T02:10:01.915186+00:00",
+  "dataset": {
+    "rows": 541,
+    "raw_columns": 45,
+    "features_after_engineering": 63,
+    "biomarkers_added": 22,
+    "target_counts": {
+      "0": 364,
+      "1": 177
+    }
+  },
+  "split": {
+    "method": "stratified 80/20",
+    "seed": 42,
+    "train": 432,
+    "test": 109,
+    "train_target_counts": {
+      "0": 291,
+      "1": 141
+    }
+  },
+  "preprocessing": {
+    "imputation": "median (train-fitted SimpleImputer)",
+    "outlier_capping": "train 1%/99% quantiles on 40 continuous features",
+    "quantile_transformed": 21,
+    "robust_scaled": 19,
+    "skew_threshold": 1.0
+  },
+  "top16_table5": [
+    "Follicle_Avg",
+    "Follicle_Total",
+    "Follicle No. (R)",
+    "Ovarian_Volume_Proxy",
+    "PCOM_Flag",
+    "Follicle No. (L)",
+    "Androgen_Score",
+    "Clinical_Hyperandrogenism_Flag",
+    "Skin darkening (Y/N)",
+    "AMH_x_Follicle",
+    "hair growth(Y/N)",
+    "Weight gain(Y/N)",
+    "Cycle(R/I)",
+    "OligoAnovulation_Flag",
+    "Fast food (Y/N)",
+    "Follicle_Asymmetry"
+  ],
+  "outputs": {
+    "raw_csv": "step1_preprocessing\\results\\pcos_cleaned_raw.csv",
+    "scaled_csv": "step1_preprocessing\\results\\pcos_cleaned_scaled.csv",
+    "table5_csv": "step1_preprocessing\\tables\\Table5_Statistical_Summary.csv"
+  },
+  "environment": {
+    "python": "3.13.5",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "cpu": "Intel64 Family 6 Model 126 Stepping 5, GenuineIntel",
+    "cores_logical": 8,
+    "ram_gb": 16.9,
+    "pandas": "3.0.5",
+    "numpy": "2.5.3",
+    "scikit_learn": "1.9.1",
+    "statsmodels": "0.15.0"
+  }
+}

@@ -1,0 +1,23 @@
+no,feature,type,formula,rationale,nonzero_rate,y_corr
+1,PCOM_Flag,binary,int((Follicle L >= 12) | (Follicle R >= 12)),Rotterdam 2018: >=12 follicles per ovary on ultrasound,0.1922,0.6096
+2,OligoAnovulation_Flag,binary,int(Cycle(R/I) != 2),Rotterdam: irregular/absent ovulation (Cycle code 2 = regular),0.2791,0.4005
+3,Clinical_Hyperandrogenism_Flag,binary,int(hair growth OR skin darkening),Rotterdam: clinical hyperandrogenism (hirsutism / acanthosis signs),0.4196,0.5407
+4,LH_FSH_Ratio,continuous,LH(mIU/mL) / FSH(mIU/mL),Classic PCOS marker; >2 suggests LH excess (inverse of raw FSH/LH),1.0000,0.1609
+5,Androgen_Score,ordinal04,hair growth + skin darkening + pimples + int(LH/FSH >= 2),Composite clinical+biochemical androgen excess score (0-4),0.6543,0.5871
+6,Follicle_Total,continuous,Follicle No. (L) + Follicle No. (R),Total antral follicle count (Rotterdam PCOM volume proxy),1.0000,0.6644
+7,Follicle_Avg,continuous,(Follicle No. (L) + Follicle No. (R)) / 2,Mean bilateral follicle count,1.0000,0.6644
+8,Follicle_Asymmetry,continuous,abs(Follicle No. (L) - Follicle No. (R)),Ovarian asymmetry; elevated in unilateral PCOM,0.8577,0.3489
+9,Ovarian_Volume_Proxy,continuous,(FolL + FolR) * (AvgFsizeL + AvgFsizeR) / 2,Total follicular load = count x mean cyst diameter proxy,1.0000,0.6387
+10,WHR_Recomputed,continuous,Waist(inch) / Hip(inch),Recomputed waist-to-hip ratio (central obesity marker),1.0000,0.0156
+11,WHR_Abn_Flag,binary,int(WHR_Recomputed > 0.85),WHO central obesity threshold for women (WHR > 0.85),0.7652,0.0330
+12,BMI_Category,ordinal04,"0:<18.5, 1:18.5-24.9, 2:25-29.9, 3:30-34.9, 4:>=35",WHO BMI classes (ordinal encoding for dose-response),0.9372,0.1676
+13,TSH_Abn_Flag,binary,int((TSH < 0.4) | (TSH > 4.0)),Thyroid dysfunction overlay (common PCOS differential),0.1978,-0.0001
+14,Hb_Abn_Flag,binary,int(Hb < 12.0),"Anemia flag (Hb < 12 g/dL, WHO women threshold)",0.7819,-0.0515
+15,RBS_Diabetic_Flag,binary,int(RBS >= 126),Diabetes-range random blood sugar (ADA >= 126 mg/dL),0.0555,0.0376
+16,VitD_Deficient_Flag,binary,int(Vit D3 < 20),"Vitamin D deficiency (< 20 ng/mL, Endocrine Society)",0.2200,0.1053
+17,Pulse_Elevated_Flag,binary,int(Pulse rate > 100),Tachycardia overlay,0.0000,
+18,Cycle_Length_Abn_Flag,binary,int((Cycle length < 3) | (Cycle length > 7)),Abnormal menstrual bleeding duration (dataset records 0-12 days),0.1072,0.2041
+19,AMH_High_Flag,binary,int(AMH > 6.8),Elevated AMH (ovarian reserve / PCOM biochemical proxy),0.2532,0.2643
+20,Metabolic_Risk_Score,ordinal04,int(BMI >= 25) + WHR_Abn_Flag + RBS_Diabetic_Flag + Weight gain,Cumulative metabolic dysfunction score (0-4),0.8983,0.3137
+21,AMH_x_Follicle,continuous,AMH * Follicle_Total,Hormone x morphology interaction (AMH drives follicle arrest),1.0000,0.4725
+22,Age_x_BMI,continuous,Age * BMI,Age-adiposity interaction for metabolic PCOS phenotype,1.0000,0.0118

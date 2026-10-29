@@ -1,0 +1,41 @@
+feature,p1_train,p99_train,n_clipped_train,n_clipped_test,n_clipped_total
+Age (yrs),21.0000,45.6900,9,2,11
+Weight (Kg),34.3100,89.0000,8,2,10
+Height(Cm),143.0000,172.6900,9,0,9
+BMI,14.5310,35.5450,10,2,12
+Pulse rate(bpm),70.0000,80.0000,4,1,5
+RR (breaths/min),16.0000,24.0000,3,0,3
+Hb(g/dl),9.8620,13.8000,9,2,11
+Cycle(R/I),2.0000,4.0000,1,0,1
+Cycle length(days),2.0000,11.0000,2,1,3
+Marraige Status (Yrs),1.0000,23.0000,5,1,6
+No. of abortions,0.0000,3.0000,1,2,3
+I   beta-HCG(mIU/mL),1.9700,19893.7356,9,3,12
+II    beta-HCG(mIU/mL),1.9417,2762.6811,10,3,13
+FSH(mIU/mL),1.1406,19.9695,10,2,12
+LH(mIU/mL),0.1093,10.6725,10,4,14
+FSH/LH,0.4400,29.4572,9,3,12
+Hip(inch),28.0000,48.0000,2,1,3
+Waist(inch),25.0000,44.0000,6,1,7
+Waist:Hip Ratio,0.7900,0.9769,8,1,9
+TSH (mIU/L),0.4431,16.8102,10,4,14
+AMH(ng/mL),0.3424,25.0360,10,7,17
+PRL(ng/mL),4.0568,75.5995,10,5,15
+Vit D3 (ng/mL),9.7550,74.5000,9,4,13
+PRG(ng/mL),0.1431,1.2538,10,1,11
+RBS(mg/dl),70.6200,144.1400,10,1,11
+BP _Systolic (mmHg),100.0000,130.0000,3,0,3
+BP _Diastolic (mmHg),70.0000,80.0000,3,0,3
+Follicle No. (L),0.0000,18.0000,4,2,6
+Follicle No. (R),0.0000,18.6900,5,5,10
+Avg. F size (L) (mm),0.0000,21.0000,3,0,3
+Avg. F size (R) (mm),5.8620,21.0000,8,2,10
+Endometrium (mm),4.0000,14.0000,8,3,11
+LH_FSH_Ratio,0.0340,2.2848,10,4,14
+Follicle_Total,1.0000,35.0700,5,3,8
+Follicle_Avg,0.5000,17.5350,5,3,8
+Follicle_Asymmetry,0.0000,9.0000,3,1,4
+Ovarian_Volume_Proxy,12.4650,584.9700,10,2,12
+WHR_Recomputed,0.7869,0.9748,10,1,11
+AMH_x_Follicle,1.0482,607.2450,10,4,14
+Age_x_BMI,442.4000,1341.5600,9,1,10
